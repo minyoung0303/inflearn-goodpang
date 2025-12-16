@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Django Run",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/manage.py",
+      "args": ["runserver"],
+      "env": {
+        "DJANGO_SETTINGS_MODULE": "shared.settings"
+      },
+      "django": true
+    }
+  ]
+}
